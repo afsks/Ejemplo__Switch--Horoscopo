@@ -2,10 +2,26 @@ body{
     margin: 0;
     padding: 0;
     font-family: arial;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-size: cover;
 }
+
+/* -----background----- */
+
+.background__img{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+/* -----background----- */
+
 .container{
     height: 50vh;
     width: 50vw;
+    background-color: transparent;
 }
 .form{
     padding: 0 10vw;
@@ -40,15 +56,24 @@ body{
     background-color: #818181;
 }
 .respuesta__container{
+    display: flex;
+    flex-direction: column;
     padding: 20px;
     box-sizing: border-box;
-    height: 25vh;
+    height: auto;
+    background-color: rgba(0, 0, 0, #c8c8c8);
 }
 .respuesta{
     text-align: justify;
     font-weight: bold;
     color: #818181;
     margin: 0;
+}
+img{
+    display: none;
+    width: 80px;
+    height: 80px;
+    align-self: center;
 }
 /* -----ID----- */
 
@@ -58,6 +83,7 @@ body{
     align-items: center;
     height: 100vh;
     width: 100vw;
+    background-color: transparent;
 }
 
 /* -----ID----- */
@@ -97,7 +123,13 @@ body{
         padding: 5vw 20vw 0 20vw ;
     }
     .respuesta__container{
-        padding: 5vw 20vw 0 20vw;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 5vw 20vw 5vw 20vw;
+    }
+}
+@media (max-width:2560px){
+    body{
+        background-image: url("../media/img/galaxy-pc.jpg");
     }
 }
 
