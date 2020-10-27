@@ -61,7 +61,7 @@ body{
     padding: 20px;
     box-sizing: border-box;
     height: auto;
-    background-color: rgba(0, 0, 0, #c8c8c8);
+    /* background-color: rgba(0, 0, 0, #c8c8c8); */
 }
 .respuesta{
     text-align: justify;
@@ -123,7 +123,7 @@ img{
         padding: 5vw 20vw 0 20vw ;
     }
     .respuesta__container{
-        background-color: rgba(0, 0, 0, 0.5);
+        /* background-color: rgba(0, 0, 0, 0.5); */
         padding: 5vw 20vw 5vw 20vw;
     }
 }
